@@ -31,7 +31,7 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "bronx_ultra_secret_key_change_me_2024")
 
 ADMIN_USERNAME = os.environ.get("ADMIN_USER", "bronx")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASS", "85095613)
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASS", "85095613")
 
 NORMAL_SMS_API = "https://bronx-fuck-sms-bomber.duckdns.org/send"
 DEFAULT_COUNT = 100
